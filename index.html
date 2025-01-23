@@ -8,7 +8,40 @@
 </head>
 <body>
 
-<header>
+<header> <header class="relative h-screen">
+    <div class="absolute inset-0 w-full h-full">
+        <img alt="Background image of a modern living room with a yellow sofa, a floor lamp, and a potted plant" class="w-full h-full object-cover" height="1080" src="https://i.postimg.cc/HLrvnDWw/living-room.png" width="1920"/>
+    </div>
+    <div class="relative z-10 container mx-auto px-4 py-4 flex justify-between items-center">
+        <div class="text-2xl font-bold text-white">
+            FurniShop
+        </div>
+        <nav class="space-x-4 desktop-menu">
+            <a class="text-white font-siara font-semibold hover:text-gray-300" href="#">Home</a>
+            <a class="text-white font-siara font-semibold hover:text-gray-300" href="#">About</a>
+            <a class="text-white font-siara font-semibold hover:text-gray-300" href="#">Features</a>
+            <a class="text-white font-siara font-semibold hover:text-gray-300" href="#">Contact</a>
+        </nav>
+        <div class="mobile-menu">
+            <button id="menu-button" class="text-white focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </div>
+    <div id="mobile-menu-items" class="absolute top-16 left-0 w-full bg-gray-800 text-white hidden">
+        <a class="block px-4 py-2 font-siara font-semibold hover:bg-gray-700" href="#">Home</a>
+        <a class="block px-4 py-2 font-siara font-semibold hover:bg-gray-700" href="#">About</a>
+        <a class="block px-4 py-2 font-siara font-semibold hover:bg-gray-700" href="#">Features</a>
+        <a class="block px-4 py-2 font-siara font-semibold hover:bg-gray-700" href="#">Contact</a>
+    </div>
+    <div class="relative h-full flex items-center justify-center">
+        <div class="relative z-10 text-center text-white">
+            <h1 class="text-4xl md:text-5xl font-siara font-semibold mb-4">Creative Home Simplify Your<br /> Furniture</h1>
+            <p class="text-lg font-normal mb-6">Do i have consent to record this meeting gain location, root-and-<br />branch, review, nor game plan who's the goto</p>
+            <button class="bg-c text-white px-8 py-4 rounded-lg font-siara font-semibold">Shop Now</button>
+        </div>
+    </div>
+</header>
     </section>
     <nav>
         <div class="logo">FurniShop</div>
